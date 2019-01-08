@@ -1,0 +1,23 @@
+# Reading E:/Installation software/ModelSim/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile {D:/Papers/A Low-Cost High-Speed Neuromorphic Hardware Based on Spiking Neural Network/verilog code/LIF in verilog/LIF.v} 
+# Loading project ww
+# Compile of LIF.v was successful.
+# Compile of test_LIF.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -gui work.testLIF_edriss
+# vsim -gui work.testLIF_edriss 
+# Loading work.testLIF_edriss
+# Loading work.LIF_mul
+vsim -gui work.testLIF_edriss
+# vsim -gui work.testLIF_edriss 
+# Loading work.testLIF_edriss
+# Loading work.LIF_mul
+add wave -r /*
+# Load canceled
+run -all
+# Break key hit 
+# Simulation stop requested.
+vsim -gui work.testLIF_edriss
+# vsim -gui work.testLIF_edriss 
+# Loading work.testLIF_edriss
+# Loading work.LIF_mul
